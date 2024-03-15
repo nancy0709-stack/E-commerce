@@ -1,0 +1,59 @@
+.inputgroup {
+  margin-bottom: 20px;
+}
+
+.inputgroup label {
+  display: block;
+  margin-bottom: 5px;
+  color:rgba(132, 27, 27, 0.823);
+}
+
+.inputgroup .inputFields {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.inputgroup .inputFields:focus {
+  outline: none;
+  border-color: rgba(132, 27, 27, 0.823);
+}
+
+.error {
+  display: block;
+  color: red;
+  margin-top: 5px;
+}
+.genderContainer {
+  margin-bottom: 20px;
+}
+
+.genderContainer label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.genderContainer .inputgender[type="radio"] {
+  margin-right: 5px;
+}
+
+.genderContainer .inputgender[type="radio"]:focus {
+  outline: none;
+  border-color: rgba(132, 27, 27, 0.823);
+}
+
+.gender{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 81%;
+}
+
+.gendergroup{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width:95%
+}
+

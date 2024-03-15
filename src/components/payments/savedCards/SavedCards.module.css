@@ -1,0 +1,96 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(132, 27, 27, 0.823);
+}
+.container {
+  overflow-y: scroll;
+  max-height: 500px;
+}
+.brand {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cardNumber {
+  margin-bottom: 5px;
+}
+
+.expiration {
+  margin-bottom: 5px;
+}
+
+.cardholder {
+  margin-bottom: 5px;
+}
+
+.payButton {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin-top:15px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+  width: 170px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.payButton:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.close {
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(132, 27, 27, 0.823);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  justify-content: right;
+}
+.close:hover {
+  background-color: rgb(40, 36, 36);
+}
+
+
+.card {
+  width: 380px;
+  height: 230px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  z-index: 1;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.visaInfo {
+  padding: 10px;
+  margin: 30px 0;
+}
+
+
+.visaInfo p {
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #0a0808;
+}
+
+

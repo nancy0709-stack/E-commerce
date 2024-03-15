@@ -1,0 +1,42 @@
+.error {
+    display: block;
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .button[type='submit'] {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(132, 27, 27, 0.823);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .button[type='submit']:hover {
+    background-color: rgba(132, 27, 27, 0.823);
+  }
+
+  @media (max-width: 768px) {
+    .button[type='submit'] {
+      width: 100%;
+      margin-left: 2px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .button[type='submit'] {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .button[type='submit'] {
+      font-size: 12px;
+    }
+  }

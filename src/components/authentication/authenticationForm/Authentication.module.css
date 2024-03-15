@@ -1,0 +1,91 @@
+.signuplogincontainer {
+  max-width: 400px;
+  margin: 14px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  color: rgba(132, 27, 27, 0.823);
+  
+}
+
+.signuplogincontainer h2 {
+  margin-top:0;
+  text-align: center;
+}
+
+.inputgroup {
+  margin-bottom: 20px;
+}
+
+.inputgroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputgroup input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.inputgroup input:focus {
+  outline: none;
+  border-color: rgba(132, 27, 27, 0.823);
+}
+
+p {
+  margin-top: 25px;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+p a {
+  color: rgba(0, 0, 0, 0.823);
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .signuplogincontainer {
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 15px;
+  }
+
+  .inputgroup input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .signuplogincontainer {
+    margin: 20px auto;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .signuplogincontainer {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 1147px) {
+  .container img {
+    width: 25%;
+    max-width: none;
+  }
+}
+.container {
+  height: 100vh;
+}
+
+@media (max-width: 1147px) {
+  .container {
+    background-size: 10%;
+  }
+}

@@ -1,0 +1,9 @@
+.card {
+  box-shadow: 0 2px 8px rgba(132, 27, 27, 0.823);
+  border: 1px solid #ccc;
+  border-radius: 06px;
+  width: fit-content;
+}
+.card:hover img {
+  transform: scale(1.05);
+}

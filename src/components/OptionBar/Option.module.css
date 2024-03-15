@@ -1,0 +1,27 @@
+.infocontainer {
+  height: 5rem;
+}
+
+.category {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.list {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #000000;
+}

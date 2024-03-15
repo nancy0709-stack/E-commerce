@@ -1,0 +1,13 @@
+.thankYou{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: brown;
+  padding: 1rem;
+}
+.redirection {
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
